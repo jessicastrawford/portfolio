@@ -1,0 +1,70 @@
+$platinum: #EDEDE8;
+.projects-title{
+  text-align: center;
+}
+.projects-section{
+width: 95vw;
+// background-color: pink;
+margin: 0 auto;
+
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: center;
+
+  .top-layer{
+    z-index: 2;
+    position: relative;
+    padding: 70px 100px 0px 100px;
+    .laptop-image{
+      width: 350px;
+    }
+    .project-paragraph{
+      width: 450px;
+      .tech-title{
+        font-weight: bold;
+      }
+    }
+  }
+  .box-one{
+    width: 450px;
+    height: 600px;
+    background-color: $platinum;
+    z-index: 0;
+    position: absolute;
+    top: 2270px;
+    left: 200px;
+  }
+  .box-two{
+    width: 450px;
+    height: 600px;
+    background-color: $platinum;
+    z-index: 0;
+    position: absolute;
+    top: 2270px;
+    left: 850px;
+  }
+  .box-three{
+    width: 450px;
+    height: 600px;
+    background-color: $platinum;
+    z-index: 0;
+    position: absolute;
+    top: 2970px;
+    left: 200px;
+  }
+  .box-four{
+    width: 450px;
+    height: 600px;
+    background-color: $platinum;
+    z-index: 0;
+    position: absolute;
+    top: 2970px;
+    left: 850px;
+  }
+  .button{
+    margin-right: 10px;
+  }
+}
+}

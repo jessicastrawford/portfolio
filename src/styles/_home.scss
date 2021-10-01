@@ -1,0 +1,35 @@
+$linen: #FFF1E6;
+$brass: #CB997E;
+
+.title{
+  margin-top: 70px;
+  background-color: $linen;
+  color: #CB997E;
+  height: 600px;
+  .title-image{
+    background-image: url('../assets/macimage.jpg');
+    height: 600px;
+    width: 1080px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .name{
+      font-size: 40px;
+      margin-top: 45px;
+    }
+    .social{
+      width: 110px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  a i{
+    background-color: pink;
+    margin-top: 100px;
+    font-size: 20px;
+  }
+}

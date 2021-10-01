@@ -1,0 +1,30 @@
+@import url('http://fonts.cdnfonts.com/css/calibre');
+@import url('http://fonts.cdnfonts.com/css/acari-sans-neue');
+
+@import '_nav.scss';
+@import '_home.scss';
+@import '_about.scss';
+@import 'skills.scss';
+@import 'projects.scss';
+
+
+// COLOURS
+
+$linen: #FFF1E6;
+$brass: #CB997E;
+$darkgrey: #1d1e1e;
+
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  // font-family: 'Calibre', sans-serif;
+  font-family: 'Acari Sans Neue', sans-serif;
+  line-height: 1.2;
+  .button{
+    background-color: $darkgrey;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+  }
+}
