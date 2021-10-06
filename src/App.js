@@ -7,6 +7,7 @@ import MyWork from './components/MyWork'
 import Experience from './components/Experience'
 import Interests from './components/Interests'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <Languages />
       <MyWork />
       <Experience />
-      <Interests />
       <Contact />
+      <Interests />
+      <Footer />
     </main>
   )
 }

@@ -1,3 +1,5 @@
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { SocialIcon } from 'react-social-icons'
 
 function Home() {
@@ -14,6 +16,9 @@ function Home() {
             bgColor="#CB997E"
             className="linkdin"/>
         </div>
+      </div>
+      <div className="arrow bounce">
+        <a href="#about"><FontAwesomeIcon icon={faChevronDown} className="chevron"/></a>
       </div>
     </section>
   )

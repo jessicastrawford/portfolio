@@ -32,8 +32,18 @@ $lightgrey: #f9f9f9;
         padding:10px 20px;
         i{
           font-size: 50px;
-          color:$darkerbrass
+          color:$darkerbrass;
+          transition: all .2s ease-in-out;
         }
+      }
+      .grow{
+        transition: all .2s ease-in-out;
+      }
+      .grow:hover{
+        transform: scale(1.5);
+      }
+      p:hover{
+        display: none;
       }
     }
   }

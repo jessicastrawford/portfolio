@@ -1,0 +1,46 @@
+.experience-section{
+  width: 805px;
+  margin: 0 auto;
+  margin-top: 160px;
+
+  .section{
+    display: flex;
+
+    .timeline{
+      height: 400px;
+
+    }
+    .longer-timeline{
+      height: 780px;
+    }
+  
+  .experience-blocks{
+    display: flex;
+    align-items:flex-start;
+    ul{
+      list-style-position: inside;
+      padding-left: 0;
+    }
+    .logo-image{
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      padding-right: 15px;
+    }
+  }
+  .first{
+    padding-top: 22px;
+  }
+  .second{
+    padding-top: 61px;
+  }
+  .third{
+    padding-top: 36px;
+  }
+}
+  h1{
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+  }
+}

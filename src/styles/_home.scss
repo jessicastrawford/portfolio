@@ -15,11 +15,10 @@ $brass: #CB997E;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     .name{
       font-size: 40px;
-      margin-top: 45px;
+      margin-top: 180px;
     }
     .social{
       width: 110px;
@@ -28,8 +27,33 @@ $brass: #CB997E;
     }
   }
   a i{
-    background-color: pink;
     margin-top: 100px;
     font-size: 20px;
+    background-color: powderblue;
+  }
+  .chevron{
+    color: darkgray;
+    font-size: 30px;
+  }
+  .arrow {
+    text-align: center;
+    margin-top: 75px;
+  }
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 3s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
   }
 }

@@ -6,12 +6,12 @@ function Navbar() {
     <nav className="navbar">
       <ul className="navbar-items">
         {/* <li><img src={navImage} alt="js-logo" className="navbar-logo"></img></li> */}
-        <a href="#about"><li>About</li></a>
-        <a href="#skills"><li>Skills</li></a>
-        <a href="#projects"><li>Projects</li></a>
-        <a href="#experience"><li>Experience</li></a>
-        <a href="#interests"><li>Interests</li></a>
-        <a href="#contact"><li>Contact</li></a>
+        <li><a href="#about">About</a></li>
+        <li><a href="skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#interests">Interests</a></li>
       </ul> 
     </nav>
   )
