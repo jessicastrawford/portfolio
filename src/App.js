@@ -8,18 +8,23 @@ import Experience from './components/Experience'
 import Interests from './components/Interests'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Fade from 'react-reveal/Fade'
 
 function App() {
   return (
     <main>
       <Navbar />
-      <Home />
-      <About />
-      <Languages />
+      <Fade>
+        <Home />
+        <About />
+        <Languages />
+      </Fade>
       <MyWork />
-      <Experience />
-      <Contact />
-      <Interests />
+      <Fade>
+        <Experience />
+        <Contact />
+        <Interests />
+      </Fade>
       <Footer />
     </main>
   )

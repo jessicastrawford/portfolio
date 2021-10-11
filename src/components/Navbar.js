@@ -8,6 +8,7 @@ function Navbar() {
 
   const handleMenuToggle = () => {
     setIsOpen(false)
+    console.log(isOpen)
   }
 
   return (

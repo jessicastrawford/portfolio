@@ -1,11 +1,14 @@
-$brass: #916d5a;
+$linen: #FFF1E6;
+$brass: #CB997E;
+$darkgrey: #1d1e1e;
 
 .footer{
-  background-color: #B7B7A4;
+  border-top: solid 2px $brass;
+  background-color: $linen;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: $brass;
   // font-weight: bold;
 }
