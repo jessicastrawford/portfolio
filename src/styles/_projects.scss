@@ -1,4 +1,5 @@
 $platinum: #EDEDE8;
+$darkgrey: #1d1e1e;
 .projects-title{
   text-align: center;
   font-size: 37px;
@@ -66,6 +67,75 @@ margin: 0 auto;
   }
   .button{
     margin-right: 10px;
+    letter-spacing: 0;
   }
+  .button:hover,
+.button:active {
+  // letter-spacing: 3px;
+  background-color: transparent;
+  color: $darkgrey;
+  font-weight: bold;
 }
+  .button:after,
+.button:before {
+  // backface-visibility: hidden;
+  border: 1px solid $darkgrey;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  // position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.button:hover:after,
+.button:hover:before {
+  // backface-visibility: hidden;
+  border-color: $darkgrey;
+  transition: width 350ms ease-in-out;
+  width: 100%;
+}
+
+.button:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 100%;
+}
+
+}
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+
+  .box-one, .box-two, .box-three, .box-four{
+    display: none;
+  }
+  .projects-section{
+    width: 380px;
+    .projects{
+
+      .top-layer{
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+        // :not(p){
+        //   text-align: center;
+        // }
+      }
+      .laptop-image{
+        width: 200px !important;
+      }
+      h3{
+        text-align: center;
+  
+      }
+      .project-paragraph{
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: start;
+      }
+    }
+  }
 }

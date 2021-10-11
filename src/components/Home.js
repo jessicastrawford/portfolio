@@ -2,11 +2,29 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { SocialIcon } from 'react-social-icons'
 
+import MovingComponent from 'react-moving-text'
+// import Typewriter from 'typewriter-effect/dist/core'
+
+
 function Home() {
   return (
     <section className="title">
       <div className="title-image">
-        <h1 className="name">&lt; Jessica Strawford &gt;</h1>
+        {/* <Typewriter
+          options={{
+            strings: ['< Jessica Strawford >'],
+            autoStart: true,
+            loop: true,
+          }}
+        /> */}
+        <div className="name">
+          <MovingComponent 
+            type="typewriter" 
+            dataText={[
+              '< Jessica Strawford >'
+            ]} />
+        </div>
+        {/* <h1 className="name">&lt; Jessica Strawford &gt;</h1> */}
         <p className="job-position">&lt; Junior Software Developer &gt;</p>
         <div className="social">
           <SocialIcon url="https://github.com/jessicastrawford" 

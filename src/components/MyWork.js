@@ -19,7 +19,7 @@ function MyWork() {
               <p><span className="tech-title">Technologies used:</span> HTML5, CSS3, SASS, JavaScript, React.js, Axios, Python3, Django, TablePlus, Insomnia, Git, GitHub, Material UI, Heroku, Netlify. </p>
             </div>
             <a href="https://design-feed.netlify.app/" target="_blank" rel="noreferrer"><button className="button">Website</button> </a>
-            <button className="button">ReadMe</button>
+            <a href="https://github.com/jessicastrawford/project-four-frontend#readme" target="_blank" rel="noreferrer"><button className="button">ReadMe</button></a>
           </div>
           <div className="box-one"></div>
           <div className="top-layer">
@@ -31,7 +31,7 @@ function MyWork() {
               <p><span className="tech-title">Technologies used:</span> HTML5, CSS3, SASS, JavaScript, React.js, Axios, MongoDB, Mongoose, Node.js, Express, GitHub, Git, Trello, Heroku, Netlify.</p>
             </div>
             <a href="https://away-days-app.netlify.app/" target="_blank" rel="noreferrer"><button className="button">Website</button></a>
-            <button className="button">ReadMe</button>
+            <a href="https://github.com/jessicastrawford/project-three-frontend#readme" target="_blank" rel="noreferrer"><button className="button">ReadMe</button></a>
           </div>
           <div className="box-two"></div>
           <div className="top-layer">
@@ -44,7 +44,7 @@ function MyWork() {
               </p>
             </div>
             <a href="https://bookcation-app.netlify.app/" target="_blank" rel="noreferrer"><button className="button">Website</button></a>
-            <button className="button">ReadMe</button>
+            <a href="https://github.com/jessicastrawford/SEI-project-two-1#readme" target="_blank" rel="noreferrer"><button className="button">ReadMe</button></a>
           </div>
           <div className="box-three"></div>
           <div className="top-layer">
@@ -57,12 +57,11 @@ function MyWork() {
               </p>
             </div>
             <a href="https://jessicastrawford.github.io/sei-project-one/" target="_blank" rel="noreferrer"><button className="button">Website</button></a>
-            <button className="button">ReadMe</button>
+            <a href="https://github.com/jessicastrawford/sei-project-one#readme" target="_blank" rel="noreferrer"><button className="button">ReadMe</button></a>
           </div>
           <div className="box-four"></div>
         </section>
       </div>
-     
     </>
   )
 }

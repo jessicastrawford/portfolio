@@ -7,16 +7,19 @@
     display: flex;
 
     .timeline{
-      height: 400px;
+      height: 452px;
+      margin-top: 15px;
 
     }
     .longer-timeline{
-      height: 780px;
+      height: 700px;
+      margin-top: 12px;
     }
   
   .experience-blocks{
     display: flex;
     align-items:flex-start;
+    margin-left: 15px;
     ul{
       list-style-position: inside;
       padding-left: 0;
@@ -29,13 +32,13 @@
     }
   }
   .first{
-    padding-top: 22px;
+    padding-top: 32px;
   }
   .second{
-    padding-top: 61px;
+    padding-top: 55px;
   }
   .third{
-    padding-top: 36px;
+    padding-top: 52px;
   }
 }
   h1{
@@ -43,4 +46,27 @@
     font-weight: 700;
     text-align: center;
   }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .experience-section{
+    width: 350px;
+    margin-top: 40px;
+    .section{
+      justify-content: center;
+      .logo-image{
+        display: none;
+      }
+      .experience-blocks{
+        max-width: 280px;
+      }
+    }
+    .timeline, .longer-timeline{
+      // background-color: palegreen;
+      // height: 700px !important;
+      // width: 30px;
+      // object-fit: cover;
+      display: none;
+    }
+    }
 }

@@ -48,4 +48,15 @@ $lightgrey: #f9f9f9;
     }
   }
 }
-
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .skills-section{
+    margin-top: 250px;
+    margin-bottom: 250px;
+    .skills{
+      width: 320px !important;
+      i{
+        font-size: 30px !important;
+      }
+    }
+  }
+}

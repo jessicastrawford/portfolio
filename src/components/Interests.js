@@ -42,10 +42,10 @@ function Interests() {
     <section id="interests" className="interests">
       <h1>My Interests.</h1>
       <div className="interests-section">
-        <div className="left-side">
+        <div>
           <p className="interests-paragraph left">During my free time, I love exploring London as I find it incredibly inspirational. I will often go to an art gallery or a fashion exhibition on the weekends, Tate Modern being one of my obvious favourites. Additionally, I find that designing clothes and painting abstract canvases brings me huge amounts of joy. </p>
         </div>
-        <div className="left-side">
+        <div>
           <p className="interests-paragraph">I stay fit and healthy by going to the gym and I love jogging in the parks with friends, before enjoying a delicious brunch on a Sunday morning. </p>
           <p className="interests-paragraph">Sailing is also a keen interest of mine, and I have become very passionate about it over the last few months as the thrill is addictive!
           </p>

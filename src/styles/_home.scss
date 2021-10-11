@@ -16,9 +16,11 @@ $brass: #CB997E;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     .name{
       font-size: 40px;
       margin-top: 180px;
+      text-align: center;
     }
     .social{
       width: 110px;
@@ -55,5 +57,27 @@ $brass: #CB997E;
     60% {
       transform: translateY(-15px);
     }
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .title{
+    margin-top: 0!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title-image{
+    max-width: 360px;
+    object-fit: contain!important;
+    max-height: 350px;
+    .name{
+      font-size: 28px!important;
+      margin-top: 90px !important;
+    }
+    // .social{
+    //   font-size: 10px !important;
+    // }
   }
 }

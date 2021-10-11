@@ -2,8 +2,8 @@ import { SocialIcon } from 'react-social-icons'
 
 function Contact() {
   return (
-    <section className="contact-page">
-      <h1 id="contact">Contact Details.</h1>
+    <section className="contact-page" id="contact">
+      <h1>Contact Details.</h1>
       <p>Please feel free to look at my work and contact me on the below links.</p>
       <div className="icons">
         <SocialIcon url="https://www.instagram.com/jessicapeony_/?hl=en" 

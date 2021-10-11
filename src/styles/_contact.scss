@@ -10,6 +10,7 @@ $linen: #FFF1E6;
   justify-content: center;
   margin: 0 auto;
   margin-top: 42px;
+  padding-bottom: 20px;
   .icons{
     width: 300px;
     display: flex;
@@ -19,5 +20,14 @@ $linen: #FFF1E6;
   h1{
     font-size: 37px;
     font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .contact-page{
+    max-width: 380px;
+    p{
+      width: 300px;
+    }
   }
 }
