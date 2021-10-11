@@ -5,7 +5,7 @@ function Languages() {
         <h1 className="skills-title">Skills.</h1>
         <div className="skills">
           <div className="icon-item grow"><i className="devicon-javascript-plain"></i><p>JavaScript</p></div>
-          <div className="icon-item grow"><i className="devicon-typescript-plain"></i><p>TypeScript</p></div>
+          {/* <div className="icon-item grow"><i className="devicon-typescript-plain"></i><p>TypeScript</p></div> */}
           <div className="icon-item grow"><i className="devicon-react-original"></i><p>React.js</p></div>
           <div className="icon-item grow"><i className="devicon-html5-plain-wordmark"></i><p>HTML5</p></div>
           <div className="icon-item grow"><i className="devicon-css3-plain-wordmark"></i><p>CSS3</p></div>
@@ -26,6 +26,7 @@ function Languages() {
           <div className="icon-item grow"><i className="devicon-trello-plain"></i><p>Trello</p></div>
           <div className="icon-item grow"><i className="devicon-materialui-plain"></i><p>Material UI</p></div>
           <div className="icon-item grow"><i className="devicon-bulma-plain"></i><p>Bulma</p></div>
+          <div className="icon-item grow"> <i className="devicon-bootstrap-plain"></i><p>Bootstrap</p></div>
           <div className="icon-item grow"><i className="devicon-npm-original-wordmark"></i><p>npm</p></div>
         </div>
       </div>

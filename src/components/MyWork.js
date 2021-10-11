@@ -28,7 +28,7 @@ function MyWork() {
             <div className="project-paragraph">
               <p>A three person project completed over 9 days. We created a full stack MERN application after a week&apos;s learning of Node.js, Express and React, building both the backend API and the frontend app. Our idea was to create an app where users could plan their perfect away day. I had full responsibility for all of the CSS and framework of the app and receiving the data from the backend to display in the frontend. I worked heavily on creating comment sections and user interactions around the page. 
               </p>
-              <p><span className="tech-title">Technologies used:</span> HTML5, CSS3, SASS, JavaScript, React.js, Axios, MongoDB, Mongoose, Node.js, Express, GitHub, Git, Trello, Heroku, Netlify.</p>
+              <p><span className="tech-title">Technologies used:</span> HTML5, CSS3, SASS, JavaScript, React.js, Axios, MongoDB, Mongoose, Node.js, Express, GitHub, Git, Bootstrap, Trello, Heroku, Netlify.</p>
             </div>
             <a href="https://away-days-app.netlify.app/" target="_blank" rel="noreferrer"><button className="button">Website</button></a>
             <a href="https://github.com/jessicastrawford/project-three-frontend#readme" target="_blank" rel="noreferrer"><button className="button">ReadMe</button></a>
@@ -40,7 +40,7 @@ function MyWork() {
             <div className="project-paragraph">
               <p>A pair coded project that was completed in 48 hours, which involved creating a multi page app with the public API, go-weather. We created an app where users could search for a desired book and be taken to a page where you could see where the book was based, and the current weather of the city. This project was a great experience to learn the skills to pair code, troubleshooting and working efficiently in a short timeframe. 
               </p>
-              <p><span className="tech-title">Technologies used:</span> HTML5, CSS3, SASS, Bulma, React.js, JavaScript, Axios, GitHub, Git, Trello, Netlify.
+              <p><span className="tech-title">Technologies used:</span> HTML5, CSS3, SASS, React.js, JavaScript, Axios, GitHub, Git, Bulma, Trello, Netlify.
               </p>
             </div>
             <a href="https://bookcation-app.netlify.app/" target="_blank" rel="noreferrer"><button className="button">Website</button></a>
