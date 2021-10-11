@@ -48,9 +48,11 @@ function Experience() {
             <div className="experience-blocks">
               <div>
                 <br/>
+                <br/>
                 <img src={freecodecampImage} className="logo-image" alt="logo"/>
               </div>
               <div>
+                <br/>
                 <br/>
                 <h3>freeCodeCamp</h3>
                 <p>Awarded Responsive Web Design certification, March 2021 - May 2021
